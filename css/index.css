@@ -57,8 +57,7 @@ body {
     margin: 0;
 }
 .im img {
-    width: 145px;
-    max-width: 80%;
+    width: 175px;
     height: auto;
     justify-self: center;
     align-self: center;
