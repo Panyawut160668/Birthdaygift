@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
         clearTimeout(typingTimer);
         showNextMessage();
         page3.style.display = "flex";
+        successSound.pause();
         setTimeout(() => {
             document.getElementById("myVideo").style.display = "flex";
             document.getElementById("myVideo").play();
